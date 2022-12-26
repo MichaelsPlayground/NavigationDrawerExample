@@ -15,6 +15,8 @@ import com.google.android.material.navigation.NavigationView;
 public class MainActivity extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener{
     // code from: https://www.geeksforgeeks.org/navigation-drawer-in-android/
 
+    // see https://developer.android.com/guide/navigation/navigation-ui
+
     public DrawerLayout drawerLayout;
     public ActionBarDrawerToggle actionBarDrawerToggle;
     NavigationView navigationView;
@@ -41,7 +43,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         navigationView.setNavigationItemSelectedListener(this);
 
     }
-    
+
     // override the onOptionsItemSelected()
     // function to implement
     // the item click listener callback
